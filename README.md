@@ -37,8 +37,69 @@ _Some more information about SASS._
 - Sass was designed by Hampton Catlin and developed by Natalie Weizenbaum in 2006
 - Sass is free to download and use
 
-## Workspace Environment setting for SASS
+## How to use SASS in your HTML?
 
-If you are in **VS code editor** you need to install an extensions called **Live SASS compiler** from extension marketplace in your code editor, as you can see in the image.
+## Step 01
+
+```html
+Install the Live Sass Compiler extension.
+```
+
+If you are in **VS code editor** you need to install an extensions called **[Live SASS compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)** from extension marketplace in your code editor, as you can see in the image.
 
 ![Live sass compiler](./image/compiler.png)
+
+## Step 02
+
+```html
+Create your HTML file and name it index.html. Include the
+<h1>element that we want to style with SASS.</h1>
+```
+
+![sass in html](./image/sass-in-html.png)
+
+[**_Please note that browsers do not recognize SASS, so a compiler needs to compile it to CSS._**]
+
+## Step 03
+
+```text
+Create a .scss file at the same root level as your index.html
+file and name it index.scss This is our SASS file.
+```
+
+![sass file](./image/sass-file.png)
+
+## Step 04
+
+```html
+Add the following code that will style your
+<h1>element.</h1>
+```
+
+```css
+$red-bg: red;
+h1 {
+  background-color: $red-bg;
+}
+```
+
+## Step 05
+
+**_Don't forget to write .css extension_**
+
+```html
+Add the following to the tag of your HTML file.
+<head>
+  <link rel="stylesheet" href="index.css" />
+</head>
+```
+
+**_It's look like this_**
+
+![link tag in html head](./image/link-in-html.png)
+
+## Step 06
+
+Now, to start the compiler, click “Watch Sass”. This will compile the SASS code to CSS.
+
+![Watch now sass compiler](./image/watch-now.png)
