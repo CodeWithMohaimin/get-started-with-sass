@@ -2,6 +2,10 @@
 
 ![thumbnail](./image/sass-guidelines.png)
 
+## Shortcuts
+
+- [Sass variables and nesting CSS rules](Sass-variables-and-nesting-CSS-rules)
+
 ## Advantages of using Sass :
 
 - **Accessibility:** Ability to run via an internet browser 24/7 from any device
@@ -103,3 +107,5 @@ Add the following to the tag of your HTML file.
 Now, to start the compiler, click “Watch Sass”. This will compile the SASS code to CSS.
 
 ![Watch now sass compiler](./image/watch-now.png)
+
+## Sass variables and nesting CSS rules
