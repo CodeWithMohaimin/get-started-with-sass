@@ -4,9 +4,9 @@
 
 ## Shortcuts
 
-- [Sass variables and nesting CSS rules](Sass-variables-and-nesting-CSS-rules)
+- [Sass variables and nesting CSS rules](#sass-variables-and-nesting-css-rules)
 
-## Advantages of using Sass :
+## Advantages of using Sass:
 
 - **Accessibility:** Ability to run via an internet browser 24/7 from any device
 - **Operational Management:** No installation, equipment updates or traditional licensing management
@@ -108,4 +108,4 @@ Now, to start the compiler, click “Watch Sass”. This will compile the SASS c
 
 ![Watch now sass compiler](./image/watch-now.png)
 
-## Sass variables and nesting CSS rules
+### Sass variables and nesting CSS rules
