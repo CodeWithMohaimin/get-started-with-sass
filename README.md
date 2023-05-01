@@ -1,5 +1,7 @@
 # The Ultimate Git Repository for learning SASS
 
+![thumbnail](./image/sass-guidelines.png)
+
 SASS Stand for
 
 ```markdown
