@@ -1,16 +1,32 @@
-# The Ultimate Git Repository for learning SASS
+# The Ultimate Git Repository for learning Sass
 
 ![thumbnail](./image/sass-guidelines.png)
 
-SASS Stand for
+## Advantages of using Sass :
+
+- **Accessibility:** Ability to run via an internet browser 24/7 from any device
+- **Operational Management:** No installation, equipment updates or traditional licensing management
+- **Cost Effective:** No upfront hardware costs and flexible payment methods such as pay-as-you-go models
+- **Scalability:** Easily scale a solution to accommodate changing needs
+- **Data Storage:** Data is routinely saved in the cloud
+- **Analytics:** Access to data reporting and intelligence tools
+- **Increase Security:** SaaS providers invest heavily in security technology and expertise
+
+## Prerequisites for learning Sass
+
+- HTML
+- CSS
+- Javascript (Fundamental)
+
+**_SASS Stand for_**
 
 ```markdown
 Syntactically Awesome Stylesheet
 ```
 
-## What is Sass used for?
+## Why we use Sass?
 
-**SASS (Syntactically Awesome Stylesheets) is a CSS pre-processor that lets you use variables, mathematical operations, mixins, loops, functions, imports, and other interesting functionalities that make writing CSS much more powerful.**
+**Sass (Syntactically Awesome Stylesheets) is a CSS pre-processor that lets you use variables, mathematical operations, mixins, loops, functions, imports, and other interesting functionalities that make writing CSS much more powerful.**
 
 _Some more information about SASS._
 
