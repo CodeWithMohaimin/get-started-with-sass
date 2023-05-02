@@ -164,6 +164,15 @@ a:hover {
 
 ## Scss variables
 
+**_Variables are a way to store information that you can re-use later. With Sass, you can store information in variables are those types of data_**
+
+- strings
+- numbers
+- colors
+- booleans
+- lists
+- nulls
+
 ```text
 In order to declare variables, we use the “$” sign and variable’s name
 and “:” after that. After “:” the value will be assigned by then and
@@ -192,3 +201,75 @@ $global-variable: red;
 ```
 
 ## Sass Nesting CSS rules
+
+**_You can nest properties in Sass, it is cleaner and easier to read than standard CSS._**
+
+- Notice that in Sass, the ul, li, and a selectors are nested inside the nav selector.
+
+```scss
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+  }
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}
+```
+
+- While in CSS, the rules are defined one by one (not nested):
+
+```css
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+```
+
+### Sass Nested Properties
+
+Many CSS properties have the same prefix, like font-family, font-size and font-weight or text-align, text-transform and text-overflow.
+
+- With Sass you can write them as nested properties:
+
+```scss
+font: {
+  family: Helvetica, sans-serif;
+  size: 18px;
+  weight: bold;
+}
+
+text: {
+  align: center;
+  transform: lowercase;
+  overflow: hidden;
+}
+```
+
+- On the other hand in CSS properties syntax is like that
+
+```css
+font-family: Helvetica, sans-serif;
+font-size: 18px;
+font-weight: bold;
+
+text-align: center;
+text-transform: lowercase;
+text-overflow: hidden;
+```
