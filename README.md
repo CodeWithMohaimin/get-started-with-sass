@@ -4,7 +4,7 @@
 
 ## Shortcuts
 
-- [Sass variables](#sass-variables)
+- [Sass variables](#scss-variables)
 - [Sass Nesting CSS rules](#sass-nesting-css-rules)
 - [Differences between Scss, Sass and Css extension](#differences-between-scss-sass-and-css-extension)
 
@@ -117,6 +117,44 @@ Now, to start the compiler, click “Watch Sass”. This will compile the SASS c
 - Scss and Css syntax are the same
 - But sass extension syntaxes are not same
 
+Sass has two options for using different syntax although both will be written like programming language. One is SCSS, which uses the same syntax as CSS but adds Sass features, this syntax has eased every developer’s problem when dealing with “Ruby syntax”. SASS was a part of another preprocessor called Haml(HTML abstraction markup language), designed and written by Ruby developers. Therefore, Sass stylesheets use the same syntax as Ruby with no curly braces {}, semicolons; and strict indentation. This is not similar to CSS, variables are declared by using “!” not “$”, the assignment is “=” not “:”. So, if you are not familiar with Ruby language, SCSS is a good choice. This topic uses SCSS.
+
+```sass
+/*SASS*/
+
+$color1: red
+$color2: blue
+
+a
+    color: $color1
+    &:hover
+        color: $color2
+
+
+
+/*SCSS*/
+
+$color1: red;
+$color2: blue;
+
+a {
+    color: $color1;
+    &:hover {
+        color: $color2;
+      }
+    }
+
+
+/*CSS*/
+
+a {
+    color: red;
+}
+a:hover {
+    color: blue;
+}
+```
+
 **_Scss and Css is the same syntax_**
 ![css and scss](./image/css-scss.png)
 
@@ -124,6 +162,33 @@ Now, to start the compiler, click “Watch Sass”. This will compile the SASS c
 
 ![css and sass](./image/sass-css.png)
 
-## Sass variables
+## Scss variables
+
+```text
+In order to declare variables, we use the “$” sign and variable’s name
+and “:” after that. After “:” the value will be assigned by then and
+finish with “;”. For example, we can declare a $main-color variable,
+and the value of this variable is #0033cc (blue color). As simple as that.
+```
+
+![variable declare](./image/variable.png)
+
+Declaring variables help programmers save a ton of time. For example, in a website layout, there are many positions, and each position has its own background, if we write CSS code like before, this could be very difficult when changing. There are also cases where many locations use the same background, so if the normal CSS code is changed, each position will have to replace many locations. But if we use the variable to store the background, we only need to replace the correct one position.
+
+### Scope of variables
+
+The variable declared at the top of the stylesheet is a global variable. This means it can be used anywhere in your module after it is declared. Variables declared in blocks (brackets in SCSS or indent in SASS) are usually local and can only be used in blocks in which they are declared.
+
+```scss
+$global-variable: red;
+
+.login-text {
+  $local-variable: blue;
+  color: $local-variable;
+}
+.about-text {
+  color: $local-variable;
+}
+```
 
 ## Sass Nesting CSS rules
