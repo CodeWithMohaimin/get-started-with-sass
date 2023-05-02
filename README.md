@@ -4,7 +4,9 @@
 
 ## Shortcuts
 
-- [Sass variables and nesting CSS rules](#sass-variables-and-nesting-css-rules)
+- [Sass variables](#sass-variables)
+- [Sass Nesting CSS rules](#sass-nesting-css-rules)
+- [Differences between Scss, Sass and Css extension](#differences-between-scss-sass-and-css-extension)
 
 ## Advantages of using Sass:
 
@@ -43,7 +45,7 @@ _Some more information about SASS._
 
 ## How to use SASS in your HTML?
 
-## Step 01
+### Step 01
 
 ```html
 Install the Live Sass Compiler extension.
@@ -53,7 +55,7 @@ If you are in **VS code editor** you need to install an extensions called **[Liv
 
 ![Live sass compiler](./image/compiler.png)
 
-## Step 02
+### Step 02
 
 ```html
 Create your HTML file and name it index.html. Include the
@@ -64,7 +66,7 @@ Create your HTML file and name it index.html. Include the
 
 [**_Please note that browsers do not recognize SASS, so a compiler needs to compile it to CSS._**]
 
-## Step 03
+### Step 03
 
 ```text
 Create a .scss file at the same root level as your index.html
@@ -73,7 +75,7 @@ file and name it index.scss This is our SASS file.
 
 ![sass file](./image/sass-file.png)
 
-## Step 04
+### Step 04
 
 ```html
 Add the following code that will style your
@@ -87,7 +89,7 @@ h1 {
 }
 ```
 
-## Step 05
+### Step 05
 
 **_Don't forget to write .css extension_**
 
@@ -102,10 +104,26 @@ Add the following to the tag of your HTML file.
 
 ![link tag in html head](./image/link-in-html.png)
 
-## Step 06
+### Step 06
 
 Now, to start the compiler, click “Watch Sass”. This will compile the SASS code to CSS.
 
 ![Watch now sass compiler](./image/watch-now.png)
 
-### Sass variables and nesting CSS rules
+**_Now You are done with Sass_**
+
+### Differences between Scss, Sass and Css extension
+
+- Scss and Css syntax are the same
+- But sass extension syntaxes are not same
+
+**_Scss and Css is the same syntax_**
+![css and scss](./image/css-scss.png)
+
+**_Sass and Css isn't same syntax_**
+
+![css and sass](./image/sass-css.png)
+
+## Sass variables
+
+## Sass Nesting CSS rules
