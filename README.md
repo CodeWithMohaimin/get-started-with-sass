@@ -4,9 +4,23 @@
 
 ## Shortcuts
 
-- [Sass variables](#scss-variables)
-- [Sass Nesting CSS rules](#sass-nesting-css-rules)
-- [Differences between Scss, Sass and Css extension](#differences-between-scss-sass-and-css-extension)
+- [The Ultimate Git Repository for learning Sass](#the-ultimate-git-repository-for-learning-sass)
+  - [Shortcuts](#shortcuts)
+  - [Advantages of using Sass:](#advantages-of-using-sass)
+  - [Prerequisites for learning Sass](#prerequisites-for-learning-sass)
+  - [Why we use Sass?](#why-we-use-sass)
+  - [How to use SASS in your HTML?](#how-to-use-sass-in-your-html)
+    - [Step 01](#step-01)
+    - [Step 02](#step-02)
+    - [Step 03](#step-03)
+    - [Step 04](#step-04)
+    - [Step 05](#step-05)
+    - [Step 06](#step-06)
+    - [Differences between Scss, Sass and Css extension](#differences-between-scss-sass-and-css-extension)
+  - [Scss variables](#scss-variables)
+    - [Scope of variables](#scope-of-variables)
+  - [Sass Nesting CSS rules](#sass-nesting-css-rules)
+    - [Sass Nested Properties](#sass-nested-properties)
 
 ## Advantages of using Sass:
 
