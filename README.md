@@ -16,11 +16,12 @@
     - [Step 04](#step-04)
     - [Step 05](#step-05)
     - [Step 06](#step-06)
-    - [Differences between Scss, Sass and Css extension](#differences-between-scss-sass-and-css-extension)
+  - [Differences between Scss, Sass and Css extension](#differences-between-scss-sass-and-css-extension)
   - [Scss variables](#scss-variables)
     - [Scope of variables](#scope-of-variables)
   - [Sass Nesting CSS rules](#sass-nesting-css-rules)
     - [Sass Nested Properties](#sass-nested-properties)
+  - [Now view those videos step by step then you will be able to confident about Sass](#now-view-those-videos-step-by-step-then-you-will-be-able-to-confident-about-sass)
 
 ## Advantages of using Sass:
 
@@ -126,7 +127,7 @@ Now, to start the compiler, click “Watch Sass”. This will compile the SASS c
 
 **_Now You are done with Sass_**
 
-### Differences between Scss, Sass and Css extension
+## Differences between Scss, Sass and Css extension
 
 - Scss and Css syntax are the same
 - But sass extension syntaxes are not same
@@ -287,3 +288,10 @@ text-align: center;
 text-transform: lowercase;
 text-overflow: hidden;
 ```
+
+## Now view those videos step by step then you will be able to confident about Sass
+
+- ![Sass @import and Partials](www.youtube.com/@codewithmohaimin)
+- ![Sass @mixin and @include](www.youtube.com/@codewithmohaimin)
+- ![Sass @extend and Inheritance](www.youtube.com/@codewithmohaimin)
+- ![Sass String Functions](www.youtube.com/@codewithmohaimin)
