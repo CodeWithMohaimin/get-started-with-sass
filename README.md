@@ -291,7 +291,7 @@ text-overflow: hidden;
 
 ## Now view those videos step by step then you will be able to confident about Sass
 
-- ![Sass @import and Partials](www.youtube.com/@codewithmohaimin)
-- ![Sass @mixin and @include](www.youtube.com/@codewithmohaimin)
-- ![Sass @extend and Inheritance](www.youtube.com/@codewithmohaimin)
-- ![Sass String Functions](www.youtube.com/@codewithmohaimin)
+- [Sass @import and Partials](www.youtube.com/@codewithmohaimin)
+- [Sass @mixin and @include](www.youtube.com/@codewithmohaimin)
+- [Sass @extend and Inheritance](www.youtube.com/@codewithmohaimin)
+- [Sass String Functions](www.youtube.com/@codewithmohaimin)
