@@ -6,7 +6,7 @@
 
 - [The Ultimate Git Repository for learning Sass](#the-ultimate-git-repository-for-learning-sass)
   - [Shortcuts](#shortcuts)
-  - [Advantages of using Sass:](#advantages-of-using-sass)
+  - [Advantages of using Sass](#advantages-of-using-sass)
   - [Prerequisites for learning Sass](#prerequisites-for-learning-sass)
   - [Why we use Sass?](#why-we-use-sass)
   - [How to use SASS in your HTML?](#how-to-use-sass-in-your-html)
@@ -23,7 +23,7 @@
     - [Sass Nested Properties](#sass-nested-properties)
   - [Now view those videos step by step then you will be able to confident about Sass](#now-view-those-videos-step-by-step-then-you-will-be-able-to-confident-about-sass)
 
-## Advantages of using Sass:
+## Advantages of using Sass
 
 - **Accessibility:** Ability to run via an internet browser 24/7 from any device
 - **Operational Management:** No installation, equipment updates or traditional licensing management
